@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mis Contactos</string>
+
+    <!-- Pantalla principal -->
+    <string name="titulo_principal">Mis Contactos</string>
+    <string name="descripcion_imagen">Imagen de contacto</string>
+    <string name="descripcion">Aplicación básica para organizar y visualizar información de contactos.</string>
+    <string name="boton_ver_contacto">Ver contacto</string>
+
+    <!-- Pantalla de detalle -->
+    <string name="nombre">Nombre: Juan Pérez</string>
+    <string name="telefono">Teléfono: 0999999999</string>
+    <string name="correo">Correo: juan@email.com</string>
+    <string name="boton_volver">Volver</string>
+</resources>
