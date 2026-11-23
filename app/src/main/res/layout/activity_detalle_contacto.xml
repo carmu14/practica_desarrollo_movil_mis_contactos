@@ -33,22 +33,6 @@
         android:text="@string/correo"
         android:textSize="20sp" />
 
-    <!-- Latitud y longitud: el texto se actualiza desde el código -->
-    <TextView
-        android:id="@+id/txtLatitud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/ubicacion_cargando"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/txtLongitud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:textSize="20sp" />
-
     <!-- Botón para regresar a la pantalla principal -->
     <Button
         android:id="@+id/btnVolver"

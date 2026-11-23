@@ -26,9 +26,14 @@
             </intent-filter>
         </activity>
 
-        <!-- Segunda pantalla: debe registrarse aquí para poder abrirse con un Intent -->
+        <!-- Segunda pantalla: muestra los detalles del contacto -->
         <activity
             android:name=".DetalleContactoActivity"
+            android:exported="false" />
+
+        <!-- Pantalla para mostrar la ubicación del GPS -->
+        <activity
+            android:name=".LocationGpsActivity"
             android:exported="false" />
     </application>
 

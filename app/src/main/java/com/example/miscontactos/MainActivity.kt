@@ -34,5 +34,12 @@ class MainActivity : AppCompatActivity() {
             // Abre DetalleContactoActivity
             startActivity(intent)
         }
+
+        // Botón que abre la pantalla de ubicación GPS
+        val btnVerUbicacion = findViewById<Button>(R.id.btnVerUbicacion)
+        btnVerUbicacion.setOnClickListener {
+            val intent = Intent(this, LocationGpsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

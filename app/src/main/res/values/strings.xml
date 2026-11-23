@@ -6,6 +6,7 @@
     <string name="descripcion_imagen">Imagen de contacto</string>
     <string name="descripcion">Aplicación básica para organizar y visualizar información de contactos.</string>
     <string name="boton_ver_contacto">Ver contacto</string>
+    <string name="boton_ver_ubicacion">Ver ubicación GPS</string>
 
     <!-- Pantalla de detalle -->
     <string name="nombre">Nombre: Carlos Muñoz</string>
@@ -13,11 +14,12 @@
     <string name="correo">Correo: cpmunoz@utpl.edu.ec</string>
     <string name="boton_volver">Volver</string>
 
-    <!-- Ubicación: %1$s se reemplaza por el valor real desde el código -->
-    <string name="latitud">Latitud: %1$s</string>
-    <string name="longitud">Longitud: %1$s</string>
-    <string name="ubicacion_cargando">Obteniendo ubicación…</string>
-    <string name="ubicacion_sin_permiso">Permiso de ubicación denegado</string>
-    <string name="ubicacion_desactivada">Activa la ubicación del teléfono</string>
-    <string name="ubicacion_no_disponible">No se pudo obtener la ubicación</string>
+    <!-- Pantalla GPS: %1$s y %2$s se reemplazan por la latitud y la longitud -->
+    <string name="titulo_gps">Ubicación GPS</string>
+    <string name="gps_instruccion">Presione el botón para obtener la ubicación</string>
+    <string name="boton_obtener_ubicacion">Obtener ubicación</string>
+    <string name="gps_latitud_longitud">Latitud: %1$s\nLongitud: %2$s</string>
+    <string name="gps_no_disponible">Ubicación no disponible. Active el GPS e intente de nuevo.</string>
+    <string name="gps_pedir_permiso">Conceda el permiso y presione el botón de nuevo</string>
+    <string name="gps_obtenida">Ubicación obtenida</string>
 </resources>

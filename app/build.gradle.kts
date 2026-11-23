@@ -41,4 +41,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    // Google Play Services Location: proporciona FusedLocationProviderClient
+    implementation("com.google.android.gms:play-services-location:21.0.1")
 }
